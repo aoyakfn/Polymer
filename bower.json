@@ -1,0 +1,21 @@
+{
+  "name": "polymer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aoyakfn/Polymer",
+  "authors": [
+    "Takuro Aoya <aoya.takuro@jp.fujitsu.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-apis": "GoogleWebComponents/google-apis#^1.0.0",
+    "google-map": "~1.0.3",
+    "polymer": "~1.0.8"
+  }
+}

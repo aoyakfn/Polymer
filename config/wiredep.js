@@ -1,9 +1,10 @@
-(function () {
+(function() {
   'use strict';
 
   module.exports = {
-    app:{
-      ignorePath
+    app: {
+      ignorePath: /^<%= paths.app %>\/|\.\.\//,
+      src: ['<%= paths.app %>/index.html']
     }
-  }
+  };
 })();
